@@ -8,10 +8,12 @@
   import Kitty from "./lib/Kitty.svelte";
   import Sparkle from "./lib/Sparkle.svelte";
   import HTML from "./lib/HTML.svelte";
-  import Array from "./lib/Array.svelte";
-  import Secret from "./lib/Secret.svelte"
-
   import Counter from "./lib/Counter.svelte";
+  import Array from "./lib/Array.svelte";
+  import Secret from "./lib/Secret.svelte";
+  import SpreadProps from "./lib/SpreadProps/SpreadProps.svelte";
+  import CatFood from "./lib/CatFood.svelte";
+  
 
   //tip calculator
   import Calculator from "./lib/Calculator.svelte";
@@ -55,6 +57,14 @@
     <Secret answer={'420'} />
     <!-- without an answer prop, it defailts to 'a secret' -->
     <Secret />
+  </div>
+
+  <div class="card">
+    <SpreadProps />
+  </div>
+
+  <div class="card">
+    <CatFood />
   </div>
   
 </main>
