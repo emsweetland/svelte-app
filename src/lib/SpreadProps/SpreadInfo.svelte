@@ -11,4 +11,11 @@
 <!-- If you have an object of properties, you can 'spread' them onto a component instead of specifying each one: -->
 <Info {...pkg}/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ScSW9C3DF18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe 
+width="560" height="315" 
+src="https://www.youtube.com/embed/ScSW9C3DF18" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>

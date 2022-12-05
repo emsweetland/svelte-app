@@ -11,27 +11,17 @@
   import Counter from "./lib/Counter.svelte";
   import Array from "./lib/Array.svelte";
   import Secret from "./lib/Secret.svelte";
-  import SpreadProps from "./lib/SpreadProps/SpreadProps.svelte";
+  import Info from "./lib/SpreadProps/SpreadInfo.svelte";
   import CatFood from "./lib/CatFood.svelte";
+  import Loop from "./lib/Loop.svelte";
+  import Key from "./lib/BlockKeyLoops/Key.svelte";
   
-
-  //tip calculator
-  import Calculator from "./lib/Calculator.svelte";
 </script>
 
 <!-- app markup -->
 
 <main>
-  <!-- tip calculator -->
-  <div class="card">
-    <Calculator />
-  </div>
 
-  <div class="card">
-    <Counter />
-  </div>
-
-  <!-- svelt.dev tutorials -->
   <div class="card">
     <Hello />
   </div>
@@ -50,6 +40,10 @@
   </div>
 
   <div class="card">
+    <Counter />
+  </div>
+
+  <div class="card">
     <Array />
   </div>
 
@@ -60,11 +54,19 @@
   </div>
 
   <div class="card">
-    <SpreadProps />
+    <Info />
   </div>
 
   <div class="card">
     <CatFood />
+  </div>
+
+  <div class="card">
+    <Loop />
+  </div>
+
+  <div class="card">
+    <Key />
   </div>
   
 </main>
